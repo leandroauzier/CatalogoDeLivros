@@ -2,4 +2,28 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#1F5E4B</color>
+    <color name="primaryDarkColor">#164438</color>
+    <color name="secondaryColor">#D7E8E1</color>
+    <color name="backgroundColor">#F4F7F5</color>
+    <color name="textPrimary">#1A1E1C</color>
+    <color name="textSecondary">#5B6660</color>
+    <color name="successColor">#2E7D32</color>
+    <color name="errorColor">#B3261E</color>
+    <color name="warningColor">#BF5B04</color>
+    <color name="cardStroke">#D8E1DC</color>
+    <color name="infoBoxBackground">#EAF3EF</color>
+    <color name="badgeColor">#C62828</color>
+    <color name="coverTech">#1D3557</color>
+    <color name="coverProgramming">#355070</color>
+    <color name="coverProgrammingAlt">#6D597A</color>
+    <color name="coverLiterature">#9C6644</color>
+    <color name="coverFiction">#5C4D7D</color>
+    <color name="coverHistory">#7F5539</color>
+    <color name="coverEducation">#2A9D8F</color>
+    <color name="coverAdmin">#3A5A40</color>
+    <color name="coverScience">#0077B6</color>
+    <color name="coverTechAlt">#4A4E69</color>
+    <color name="coverCommunication">#A44A3F</color>
+    <color name="coverEducationAlt">#4D908E</color>
 </resources>

@@ -1,9 +1,24 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Base.Theme.CatologoDeLivros" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryContainer">@color/secondaryColor</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/primaryDarkColor</item>
+        <item name="colorSurface">@android:color/white</item>
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
     </style>
 
     <style name="Theme.CatologoDeLivros" parent="Base.Theme.CatologoDeLivros" />
+
+    <style name="Theme.CatologoDeLivros.Launcher" parent="Theme.CatologoDeLivros">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Widget.CatologoDeLivros.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">18dp</item>
+        <item name="boxCornerRadiusTopEnd">18dp</item>
+        <item name="boxCornerRadiusBottomStart">18dp</item>
+        <item name="boxCornerRadiusBottomEnd">18dp</item>
+    </style>
 </resources>
